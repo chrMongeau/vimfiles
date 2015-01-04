@@ -72,7 +72,7 @@ map <Leader>n :if &nu<CR>set nonu showbreak=+<CR>else<CR>set nu showbreak=""<CR>
 
 map <Space> <PageDown>
 
-imap <jj> <Esc>
+imap jj <Esc>
 
 "inoremap <CR> <CR><Space><BS>
 "inoremap <buffer> <Enter> <CR><Space><C-H>
