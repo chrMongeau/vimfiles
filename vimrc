@@ -71,7 +71,8 @@ set ruler
 map <Leader>n :if &nu<CR>set nonu showbreak=+<CR>else<CR>set nu showbreak=""<CR>endif<CR><CR>
 
 map <Space> <PageDown>
-"map   <PageUp>
+
+imap <jj> <Esc>
 
 "inoremap <CR> <CR><Space><BS>
 "inoremap <buffer> <Enter> <CR><Space><C-H>
