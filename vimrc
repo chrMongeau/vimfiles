@@ -17,6 +17,10 @@ set fenc=utf-8
 "set guifont=
 "set guifontwide=
 
+if has('gui_running')
+  set guifont=Consolas:h10
+endif
+
 let g:is_kornshell=1
 
 set wildmenu wildmode=longest:full
