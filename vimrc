@@ -19,6 +19,7 @@ set fenc=utf-8
 
 if has('gui_running')
   set guifont=Consolas:h10
+    set lines=999 columns=82
 endif
 
 set colorcolumn=77
