@@ -21,6 +21,8 @@ if has('gui_running')
   set guifont=Consolas:h10
 endif
 
+set colorcolumn=77
+
 let g:is_kornshell=1
 
 set wildmenu wildmode=longest:full
