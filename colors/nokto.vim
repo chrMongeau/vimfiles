@@ -29,6 +29,8 @@ hi Constant		term=reverse						ctermfg=Blue										guifg=SlateBlue
 hi Todo			term=reverse	ctermbg=White		ctermfg=Black						guibg=Yellow	guifg=Red
 hi Visual		term=reverse	ctermbg=Black		ctermfg=White						guibg=grey60
 hi WildMenu		term=standout	ctermbg=Blue		ctermfg=White						guibg=Yellow	guifg=Black
+hi ColorColumn					ctermbg=DarkGrey										guibg=grey10
+
 
 " ???
 if &t_Co > 8
