@@ -60,7 +60,7 @@ set hls is
 set listchars=eol:$,tab:\|-
 
 "Tabs
-set ts=4 sw=4 noet
+set ts=4 sw=4 et
 
 "numbering (3 cols)
 set nu nuw=3
